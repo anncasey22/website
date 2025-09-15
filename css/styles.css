@@ -11368,3 +11368,15 @@ span-art {
 .image{ height: 260px; } 
 */
 
+/* Center big icons inside the fixed .image box */
+.image__icon{
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: clamp(72px, 18vw, 140px); /* scales with card size */
+  color: #ffffff;                      /* icon color */
+}
+
+
