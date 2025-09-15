@@ -264,111 +264,104 @@ Feel free to explore my projects and apps, and maybe even my film takes 🎥🍿
                 </div>
             </section>
             <!-- Project section starts -->
-<section class="py-5">
-    <div class="container px-5 my-5">
-        <div class="row gx-5 justify-content-center">
-            <div class="col-lg-8 col-xl-6">
-                <div class="text-center">
-                    <h2 class="fw-bolder">Current Projects</h2>
-                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">TAP ON PROJECTS FOR DESCRIPTION</div>
-                    <p class="lead fw-normal text-muted mb-5"></p>
-                </div>
-            </div>
+<section class="py-5" id="projects">
+  <div class="container px-5 my-5">
+    <div class="row gx-5 justify-content-center">
+      <div class="col-lg-8 col-xl-6">
+        <div class="text-center">
+          <h2 class="fw-bolder">Current Projects</h2>
+          <div class="badge bg-primary bg-gradient rounded-pill mb-2">TAP ON PROJECTS FOR DESCRIPTION</div>
+          <p class="lead fw-normal text-muted mb-5"></p>
         </div>
+      </div>
+    </div>
 
-        <!-- Project Cards Row -->
-        <section class="py-5">
-    <div class="container px-5 my-5">
-        <div class="row gx-5">
-            <!-- NASA Project -->
-            <div class="col-lg-4 mb-5">
-                <div class="image">
-                    <img class="image__img" src="https://i.ibb.co/RTP8yjw/satel.png" alt="satellite">
-                    <div class="image__overlay">
-                        <div class="image__title text-center">Improving Image Resolution from NASA COSI Satelitte</div>
-                        <p class="image__description text-center">
-                           Using CNNs + Monte Carlo simulations to improve gamma-ray telescope imaging resolution. Built models with TensorFlow + Richardson-Lucy deconvolution.
-                        </p>
-                    </div>
-                </div>
-            </div>
+    <!-- Single row, responsive columns -->
+    <div class="row g-5 row-cols-1 row-cols-md-2 row-cols-lg-3">
 
-            <!-- UCSF Project -->
-            <div class="col-lg-4 mb-5">
-                <div class="image">
-                    <img class="image__img" src="https://i.ibb.co/8dnpTcq/pngtree-hospital-icon-design-illustration-png-image-2166843.png" alt="Hospital icon design illustration">
-                    <div class="image__overlay">
-                        <div class="image__title text-center">UCSF </div>
-                        <p class="image__description text-center">
-                            Transitioned 11TB of CT data to AWS S3; built React dashboards + backend algorithms to improve searchability and access.
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <!-- NASA Project -->
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="https://i.ibb.co/RTP8yjw/satel.png" alt="satellite">
+          <div class="image__overlay">
+            <div class="image__title text-center">Improving Image Resolution from NASA COSI Satelitte</div>
+            <p class="image__description text-center">
+              Using CNNs + Monte Carlo simulations to improve gamma-ray telescope imaging resolution. Built models with TensorFlow + Richardson-Lucy deconvolution.
+            </p>
+          </div>
+        </div>
+      </div>
 
-            <!-- CurrentWave AI SWE Intern Project -->
-            <div class="col-lg-4 mb-5">
-                <div class="image">
-                    <img class="image__img" src="https://i.ibb.co/CQH3rZ7/wave-ai-pic.png" alt="wave-ai-pic" border="0">
-                    <div class="image__overlay">
-                        <div class="image__title text-center">CurrentWave AI SWE Intern</div>
-                        <p class="image__description text-center">
-                            Automated Playwright test runs, token-auth checks, and GitHub CI/CD flows; collaborated on debugging + API logic to streamline user testing.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- End of Row -->
-    </div> <!-- End of Container -->
-</section> <!-- End of Section -->
-                     <!-- HB Healthcare Safety & Ensembley (insert BEFORE Future Projects Placeholder) -->
-            <!-- HB Healthcare Safety -->
-            <div class="col-lg-4 mb-5">
-                <div class="image">
-                    <!-- swap the image URL if you have a better one -->
-                    <img class="image__img" src="https://i.ibb.co/8dnpTcq/pngtree-hospital-icon-design-illustration-png-image-2166843.png" alt="HB Healthcare Safety">
-                    <div class="image__overlay">
-                        <div class="image__title text-center">HB Healthcare Safety — GenAI Integration</div>
-                        <p class="image__description text-center">
-                            Prototyping Bedrock-based LLM agents for Safeware® (prompt routing, retrieval, eval harness).
-                            Designed secure data flows (S3 + KMS), and collaborated on FedRAMP-aligned architecture diagrams.
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <!-- UCSF Project -->
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="https://i.ibb.co/8dnpTcq/pngtree-hospital-icon-design-illustration-png-image-2166843.png" alt="Hospital icon design illustration">
+          <div class="image__overlay">
+            <div class="image__title text-center">UCSF</div>
+            <p class="image__description text-center">
+              Transitioned 11TB of CT data to AWS S3; built React dashboards + backend algorithms to improve searchability and access.
+            </p>
+          </div>
+        </div>
+      </div>
 
-            <!-- Ensembley (CS160) -->
-            <div class="col-lg-4 mb-5">
-                <div class="image">
-                    <!-- swap the image URL if you have a better one -->
-                    <img class="image__img" src="https://i.ibb.co/Fsm9nm0/Untitled-Artwork-21.png" alt="Ensembley app mock">
-                    <div class="image__overlay">
-                        <div class="image__title text-center">Ensembley — Music Collaboration App</div>
-                        <p class="image__description text-center">
-                            Designed & built a React/Vite prototype for matching musicians: profiles, messaging, event discovery,
-                            and an AI assistant for safer, values-aligned matches. Led UX research & low-fi → hi-fi iteration.
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <!-- CurrentWave AI SWE Intern Project -->
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="https://i.ibb.co/CQH3rZ7/wave-ai-pic.png" alt="wave-ai-pic">
+          <div class="image__overlay">
+            <div class="image__title text-center">CurrentWave AI SWE Intern</div>
+            <p class="image__description text-center">
+              Automated Playwright test runs, token-auth checks, and GitHub CI/CD flows; collaborated on debugging + API logic to streamline user testing.
+            </p>
+          </div>
+        </div>
+      </div>
 
-            <!-- Future Projects Placeholder -->
-            <div class="col-lg-4 mb-5">
-                <div class="image">
-                    <img class="image__img" src="https://i.ibb.co/JdRw3B3/Untitled-Artwork.jpg" alt="Bricks">
-                    <div class="image__overlay">
-                        <div class="image__title text-center">Future Projects for You?</div>
-                        <p class="image__description text-center">
-                            Always open to feedback and collabs! Reach out via email 💌 or LinkedIn 🔗.
-                        </p>
-                    </div>
-                </div>
-            </div>
+      <!-- HB Healthcare Safety -->
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="https://i.ibb.co/8dnpTcq/pngtree-hospital-icon-design-illustration-png-image-2166843.png" alt="HB Healthcare Safety">
+          <div class="image__overlay">
+            <div class="image__title text-center">HB Healthcare Safety — GenAI Integration</div>
+            <p class="image__description text-center">
+              Prototyping Bedrock-based LLM agents for Safeware® (prompt routing, retrieval, eval harness). Designed secure data flows (S3 + KMS) & collaborated on FedRAMP-aligned diagrams.
+            </p>
+          </div>
+        </div>
+      </div>
 
-        </div> <!-- End of Row for Projects -->
+      <!-- Ensembley -->
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="https://i.ibb.co/Fsm9nm0/Untitled-Artwork-21.png" alt="Ensembley app mock">
+          <div class="image__overlay">
+            <div class="image__title text-center">Ensembley — Music Collaboration App</div>
+            <p class="image__description text-center">
+              React/Vite prototype for matching musicians: profiles, messaging, event discovery, and an AI assistant for values-aligned matches. Led UX research & lo-fi → hi-fi iteration.
+            </p>
+          </div>
+        </div>
+      </div>
 
-    </div> <!-- End of Container -->
-</section> <!-- End of Section -->
+      <!-- Future Projects Placeholder -->
+      <div class="col">
+        <div class="image">
+          <img class="image__img" src="https://i.ibb.co/JdRw3B3/Untitled-Artwork.jpg" alt="Bricks">
+          <div class="image__overlay">
+            <div class="image__title text-center">Future Projects for You?</div>
+            <p class="image__description text-center">
+              Always open to feedback and collabs! Reach out via email 💌 or LinkedIn 🔗.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div> <!-- /row -->
+  </div> <!-- /container -->
+</section>
+<!-- Project section ends -->
+
 
 
            
